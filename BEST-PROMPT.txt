@@ -1,0 +1,317 @@
+You are an elite creative director, award-winning interaction designer, senior frontend engineer, motion designer, UX strategist, and visual storyteller.
+
+Create a WORLD-CLASS personal profile website for:
+
+NAME: Maker Kent
+AGE: 26
+IDENTITY / THEMES:
+- Christian
+- Chemical engineer
+- Technology geek
+- Mathematics lover
+- Chess/strategy enthusiast
+- Curious thinker
+- Builder and lifelong learner
+
+CORE IDEA:
+"The Seeker's Archive"
+
+The website should feel less like a conventional résumé/portfolio and more like entering the mind of an unusually curious person.
+
+The emotional reaction should be:
+"WHO MADE THIS?"
+followed by:
+"WAIT… THIS IS A PERSONAL WEBSITE?"
+and finally:
+"I WANT TO EXPLORE EVERYTHING."
+
+DESIGN TARGET
+Aim for an Awwwards-level experimental/editorial portfolio aesthetic: cinematic, sophisticated, intelligent, restrained, mysterious, premium and memorable. Use immersive scroll animation, 3D/WebGL where useful, oversized typography, depth, motion, subtle grain, spatial composition and strong transitions. Contemporary interactive 3D portfolio references commonly use Three.js/WebGL and scroll-driven immersive scenes, but the result must remain tasteful rather than becoming a tech demo.
+
+TECHNICAL CONSTRAINT — VERY IMPORTANT
+The final website MUST work on GitHub Pages.
+
+Prefer:
+- HTML
+- CSS
+- vanilla JavaScript
+- Three.js from a reliable CDN if needed
+- no backend
+- no PHP
+- no database
+- no secret API keys
+- no required build server
+
+The result should work by simply uploading the project to a GitHub repository and enabling GitHub Pages.
+
+PERFORMANCE
+This is crucial:
+- optimize for iPad and mobile
+- use devicePixelRatio caps
+- avoid enormous textures
+- avoid heavy particle counts
+- use requestAnimationFrame efficiently
+- pause/reduce animation where appropriate
+- respect `prefers-reduced-motion`
+- maintain excellent readability
+- do not sacrifice performance merely for flashy effects
+
+VISUAL DIRECTION
+Use a sophisticated monochrome/neutral palette:
+- near-black
+- warm white
+- graphite
+- subtle gray
+- occasional restrained accent
+
+Avoid:
+- generic gradients everywhere
+- neon gamer aesthetics
+- template-looking cards
+- excessive rounded rectangles
+- cliché developer portfolios
+- too much text
+- stock-photo corporate design
+
+Use:
+- enormous typography
+- asymmetry
+- negative space
+- thin rules
+- editorial numbering
+- subtle grid systems
+- grain
+- light/shadow
+- depth
+- visual rhythm
+- cinematic section changes
+
+HERO
+Make the opening unforgettable.
+
+Display:
+MAKER
+KENT
+
+Subtitle:
+Christian · Chemical Engineer · Technology Geek · Thinker · Builder
+
+Add a mysterious visual system behind the typography:
+- 3D orbital object OR star field OR abstract mathematical geometry
+- subtle parallax
+- cursor response
+- ambient movement
+
+Opening sequence:
+1. minimal loading state
+2. logo/initials
+3. transition into the world
+4. large typography
+5. invitation to explore
+
+Do not immediately dump a résumé on the visitor.
+
+PROFILE STORY
+Build the site as a narrative:
+
+01 — ARRIVAL
+Who is Maker Kent?
+
+02 — THE PERSON
+What drives him?
+
+03 — THE WORLDS
+Faith
+Technology
+Mathematics
+Strategy
+Creation
+
+04 — THE MIND
+Questions he explores
+
+05 — THE ARCHIVE
+Projects, studies, notes, discoveries
+
+06 — OPEN DOOR
+Contact
+
+ABOUT SECTION
+Communicate this idea:
+
+"I don't want to just know more. I want to understand more deeply, think more clearly, and build things that matter."
+
+Mention:
+- age 26
+- chemical engineering
+- Christian faith
+- technology
+- mathematics
+- curiosity
+- learning
+- creation
+
+Do not make unsupported claims about his career, achievements, education, employers, awards or projects. Never invent facts.
+
+WORLDS SECTION
+Create five visually distinct entries:
+
+01 FAITH
+Christ, Scripture, truth, spiritual questions.
+
+02 TECHNOLOGY
+AI, computing, chips, web design, emerging technology.
+
+03 MATHEMATICS
+Patterns, logic, elegant problems, abstraction.
+
+04 STRATEGY
+Chess, systems thinking, decision-making.
+
+05 CREATION
+Engineering, energy, sustainability, building useful things.
+
+Make these feel like portals, not ordinary cards.
+
+THE MIND
+Create thought-provoking question cards such as:
+
+"Why can a 20-minute nap sometimes feel better than a 60-minute nap?"
+
+"How does a microscopic transistor become artificial intelligence?"
+
+"What changes when you read Scripture slowly and deeply?"
+
+The purpose is to show the visitor HOW Maker Kent thinks, not simply list interests.
+
+THE ARCHIVE
+Create an immersive section representing unfinished work.
+
+Possible language:
+NOT FINISHED
+BUILDING IN PUBLIC
+Notes · Experiments · Studies · Projects · Discoveries
+
+Make it feel like a living laboratory/archive.
+
+CONTACT
+Keep it simple and elegant.
+
+"Have an idea?"
+
+Include an email placeholder that can easily be replaced.
+
+INTERACTIONS
+Implement polished interactions:
+- scroll reveal
+- subtle parallax
+- magnetic buttons
+- cursor transformation on interactive elements
+- hover depth
+- smooth section transitions
+- 3D ambient scene
+- animated orbital/radar geometry
+- subtle text movement
+- loading transition
+
+Do NOT make animations annoying.
+
+3D
+Use Three.js only where it improves the experience.
+
+Potential ideas:
+- floating star field
+- orbital particles
+- mathematical sphere
+- abstract wireframe geometry
+- slowly rotating dimensional object
+- cursor-reactive space
+
+The 3D layer must remain behind content and never interfere with reading.
+
+MOBILE/IPAD
+This website will be viewed heavily on iPad.
+
+Create:
+- excellent touch targets
+- responsive typography
+- no horizontal overflow
+- reduced particle density
+- simplified 3D on small devices
+- readable sections
+- graceful animation fallback
+
+ACCESSIBILITY
+Include:
+- semantic HTML
+- keyboard navigation
+- visible focus states
+- meaningful link labels
+- alt text when images are added
+- reduced-motion support
+- sufficient contrast
+
+SEO
+Include:
+- title
+- meta description
+- Open Graph metadata
+- favicon placeholder
+- semantic headings
+- clean URLs where appropriate
+
+FILES
+Produce a clean project structure:
+
+/
+  index.html
+  style.css
+  script.js
+  README.md
+  assets/
+  js/
+
+If using Three.js:
+- keep the implementation simple
+- explain where the dependency comes from
+- make the site still degrade gracefully if WebGL is unavailable
+
+PROFILE IMAGE
+Do not invent a fake realistic portrait of Maker Kent.
+
+Instead:
+- create a premium placeholder area
+- make it obvious where `assets/profile.jpg` can later be inserted
+- provide exact instructions for replacing it
+
+COPY STYLE
+The writing should feel:
+- intelligent
+- concise
+- introspective
+- confident
+- slightly mysterious
+- human
+
+Never sound like:
+"Passionate developer with a proven track record..."
+
+Instead write like an editorial profile of a curious person.
+
+FINAL QUALITY CHECK
+Before finishing:
+1. Check every section for visual consistency.
+2. Check mobile/iPad.
+3. Check navigation anchors.
+4. Check all animations.
+5. Check WebGL fallback.
+6. Check reduced motion.
+7. Check no broken assets.
+8. Check no invented personal facts.
+9. Check GitHub Pages compatibility.
+10. Remove anything that looks like a generic AI-generated portfolio.
+11. Make the first 10 seconds exceptionally memorable.
+12. Ensure the design communicates a PERSON, not a résumé.
+
+OUTPUT:
+Return the complete website files, ready to upload to GitHub Pages, plus concise instructions for publishing and replacing the future profile image.
