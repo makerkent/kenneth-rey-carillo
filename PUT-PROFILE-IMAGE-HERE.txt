@@ -1,0 +1,1 @@
+Place your future profile photo here as profile.jpg, then add it to index.html where desired.
